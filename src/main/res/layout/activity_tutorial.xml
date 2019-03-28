@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.volksoftech.android.homelist.Tutorial">
+    tools:context="com.vennamprasad.android.homelist.Tutorial">
 
     <include
         layout="@layout/common_header"
