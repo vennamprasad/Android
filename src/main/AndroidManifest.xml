@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.volksoftech.android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/app_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".WelcomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Home"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".homelist.Tutorial" />
+        <activity android:name=".homelist.Widgets" />
+        <activity android:name=".homelist.ActivityAndIntents" />
+        <activity android:name=".homelist.Fragments" />
+        <activity android:name=".homelist.Menu" />
+        <activity android:name=".homelist.Service" />
+        <activity android:name=".homelist.AlarmManager" />
+        <activity android:name=".homelist.Storage" />
+        <activity android:name=".homelist.SQLite" />
+        <activity android:name=".homelist.JSON" />
+        <activity android:name=".homelist.Multimedia" />
+        <activity android:name=".homelist.Speech" />
+        <activity android:name=".homelist.Telephony" />
+        <activity android:name=".homelist.Device" />
+        <activity android:name=".homelist.Camera" />
+        <activity android:name=".homelist.SensorTutorial" />
+        <activity android:name=".homelist.Graphics" />
+        <activity android:name=".homelist.Animation" />
+        <activity android:name=".homelist.WebService" />
+        <activity android:name=".homelist.GoogleMap" />
+        <activity android:name=".homelist.Ads" />
+        <activity android:name=".homelist.Interview" />
+        <activity android:name=".homelist.Quiz" />
+    </application>
+
+</manifest>
